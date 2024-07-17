@@ -121,7 +121,7 @@ const testimonials = [
     id: 1,
     testimonial:
       "Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-    name: "Rajesh Poudel",
+    name: "Rajesh",
     image: "/socialmedia/behance.svg",
     link: "https://www.behance.net/omthecreator",
   },
@@ -129,7 +129,7 @@ const testimonials = [
     id: 2,
     testimonial:
       "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Rajesh Poudel",
+    name: "Rajesh",
     image: "/socialmedia/linkedin.svg",
     link: "https://www.linkedin.com/in/om-patel-401068143/",
   },
@@ -137,7 +137,7 @@ const testimonials = [
     id: 3,
     testimonial:
       "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-    name: "Rajesh Poudel",
+    name: "Rajesh",
     image: "/socialmedia/dribble.svg",
     link: "https://dribbble.com/om2121",
   },
@@ -145,7 +145,7 @@ const testimonials = [
     id: 4,
     testimonial:
       "Also do check out my UI/UX Portfolio where I have shared by design studies.",
-    name: "Rajesh Poudel",
+    name: "Rajesh",
     image: "/socialmedia/portfolio.svg",
     link: "https://omthecreator.netlify.app/",
   },
@@ -153,9 +153,79 @@ const testimonials = [
     id: 5,
     testimonial:
       "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-    name: "Rajesh Poudel",
+    name: "Rajesh",
     image: "/tech/github.webp",
     link: "https://github.com/omunite215",
+  },
+];
+
+const dataAnalystFeatures = [
+  {
+    id: 1,
+    feature:
+      "Proficient in statistical analysis and data visualization techniques.",
+    name: "Statistical Analysis",
+    image: "/icons/statistical-analysis.svg",
+  },
+  {
+    id: 2,
+    feature:
+      "Expertise in using tools like Excel, SQL, Python, and R for data manipulation and analysis.",
+    name: "Data Tools",
+    image: "/icons/data-tools.svg",
+  },
+  {
+    id: 3,
+    feature:
+      "Strong understanding of database management and data warehousing.",
+    name: "Database Management",
+    image: "/icons/database-management.svg",
+  },
+  {
+    id: 4,
+    feature:
+      "Experience with business intelligence tools like Tableau, Power BI, and Looker.",
+    name: "Business Intelligence",
+    image: "/icons/business-intelligence.svg",
+  },
+  {
+    id: 5,
+    feature:
+      "Ability to communicate insights and recommendations to stakeholders effectively.",
+    name: "Communication Skills",
+    image: "/icons/communication-skills.svg",
+  },
+  {
+    id: 6,
+    feature:
+      "Familiarity with data cleaning, preprocessing, and validation techniques.",
+    name: "Data Cleaning",
+    image: "/icons/data-cleaning.svg",
+  },
+  {
+    id: 7,
+    feature:
+      "Understanding of machine learning algorithms and predictive modeling.",
+    name: "Machine Learning",
+    image: "/icons/machine-learning.svg",
+  },
+  {
+    id: 8,
+    feature: "Strong problem-solving skills and attention to detail.",
+    name: "Problem-Solving",
+    image: "/icons/problem-solving.svg",
+  },
+  {
+    id: 9,
+    feature: "Knowledge of data privacy and security best practices.",
+    name: "Data Privacy",
+    image: "/icons/data-privacy.svg",
+  },
+  {
+    id: 10,
+    feature: "Ability to work collaboratively in cross-functional teams.",
+    name: "Team Collaboration",
+    image: "/icons/team-collaboration.svg",
   },
 ];
 
@@ -273,4 +343,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  dataAnalystFeatures,
+};
